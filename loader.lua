@@ -1,4 +1,5 @@
-UiLoader.Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))() 
+local UiLoader = {}
+UiLoader.Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Library.CreateLib("Teus Hub | Blox Fruits", "AmethystTheme")
     
