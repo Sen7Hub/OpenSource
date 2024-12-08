@@ -1,5 +1,5 @@
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/refs/heads/main/Fluent.lua"))()
-UiLoader.Window = UiLoader.Fluent:CreateWindow(
+UiLoader.Window = Fluent:CreateWindow(
     {
         Title = "Jose Hub",
         SubTitle = "Develope by vMh~ (discord.gg/tsuoscripts)",
